@@ -3,40 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legend's l'Aouina</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <title>Restaurant Website</title>
     <link rel="stylesheet" href="styles.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style type="text/css">
+
+#ccc{
+    font-size: 40px;
+    right: 30;
+}
+#fff{
+    font-size: 40px;
+}
+#nnn{
+    font-size: 40px;
+}
+
+</style>
+
 </head>
 <body>
     <header>
-    <nav>
-        <div class="container">
-            <h1>Legend's l'Aouina</h1> 
-              <a id="fps"> <img src="logole-removebg-preview.png" width="80px" height="80px" alt=""></a> 
-                    <li><a href="#home">Home</a></li>
-                    <li class="dropdown">
-                        <a href="#menu" class="dropbtn">Menu</a>
-                        <div class="dropdown-content">
-                            <a href="#">sandwishes</a>
-                            <a href="#">pizza</a>
-                            <a href="#">boissons</a>
-                        </div>
-                    </li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    
-                </ul>
-        </div>
-    </nav>
-</header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#menu" class="dropbtn">Menu</a>
+                    <div class="dropdown-content">
+                        <a href="sandwishes.html">sandwishes</a>
+                        <a href="pizza.html">pizza</a>
+                        <a href="boissons.html">boissons</a>
+                        <a href="salades.html">salades</a>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <section id="home" class="hero">
         <div class="container">
             <h2>Welcome to Legend's l'Aouina</h2>
             <p>Discover the real taste of sandwishes.</p>
-            <a href="#menu" class="btn">View Menu</a>
+            <a href="#reservation-form" class="btn">Make a Reservation</a>
         </div>
     </section>
+   
 
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our story and team.</p>
+    </section>
     <section id="reservation" class="reservation">
         <div class="container">
             <h2>Make a Reservation</h2>
@@ -56,8 +74,6 @@
         </div>
     </section>
 
-   
-
     <footer>
         <section id="contact" class="contact">
             <div class="container">
@@ -67,11 +83,13 @@
                     <p> <link rel="stylesheet" href="https://www.google.com/maps/place/Legend's+l'Aouina/@36.8612551,10.2517382,17z/data=!3m1!4b1!4m6!3m5!1s0x12e2caaed4e7ec41:0xba78e30cefec69bf!8m2!3d36.8612508!4d10.2543131!16s%2Fg%2F1pp2vkqwq?entry=ttu">Address: V763+GP4, Av. Dar Fadhal, Tunis 2036</p>
                     <p>Phone: +216 25 252 666</p>
                     <p>Email: legendlaouina@gmail.com</p>
+                    <a  id="ccc" href="https://www.facebook.com/LegendsTunis"><i class="fa-brands fa-square-facebook fa-beat" style="color: #2354a9;"></i></a>
+                    <a id="fff" href="https://www.instagram.com/legends.tunis/?hl=fr"><i class="fa-brands fa-instagram fa-beat" style="color: #da166b;"></i></a>
+                    <a id="nnn" href="https://www.tiktok.com/@legends.tunis"><i class="fa-brands fa-tiktok fa-beat" style="color: #161e88;"></i></i></a>
                 </ul>
-            </div>
+            
         </section>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
