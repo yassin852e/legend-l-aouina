@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legend's l'Aouina</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <div class="container">
+            <h1>Legend's l'Aouina</h1> 
+              <a id="fps"> <img src="logole-removebg-preview.png" width="80px" height="80px" alt=""></a> 
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#menu" class="dropbtn">Menu</a>
+                        <div class="dropdown-content">
+                            <a href="#">sandwishes</a>
+                            <a href="#">pizza</a>
+                            <a href="#">boissons</a>
+                        </div>
+                    </li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    
+                </ul>
+        </div>
+    </nav>
+</header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Legend's l'Aouina</h2>
+            <p>Discover the real taste of sandwishes.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <h2>Make a Reservation</h2>
+            <form id="reservation-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" min="1" required>
+                <button type="submit" class="btn">Submit Reservation</button>
+            </form>
+        </div>
+    </section>
+
+   
+
+    <footer>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <p></p>
+                <ul>
+                    <p> <link rel="stylesheet" href="https://www.google.com/maps/place/Legend's+l'Aouina/@36.8612551,10.2517382,17z/data=!3m1!4b1!4m6!3m5!1s0x12e2caaed4e7ec41:0xba78e30cefec69bf!8m2!3d36.8612508!4d10.2543131!16s%2Fg%2F1pp2vkqwq?entry=ttu">Address: V763+GP4, Av. Dar Fadhal, Tunis 2036</p>
+                    <p>Phone: +216 25 252 666</p>
+                    <p>Email: legendlaouina@gmail.com</p>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
